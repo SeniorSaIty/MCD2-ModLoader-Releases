@@ -28,7 +28,7 @@ signed builds. Grab the newest one from **[Releases](../../releases)**.
 
 1. Download the newest `MCD2ModLoader-x.y.z-Setup.exe` (or the `.zip`) from **[Releases](../../releases)**.
 2. Run the setup (no admin rights needed) or unpack the ZIP anywhere and start `MCD2ModLoader.exe`.
-3. Requires the [.NET 10 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/10.0) (10.0.12 or newer).
+3. The setup installs the [.NET 10 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/10.0) automatically if it is missing (Windows asks for administrator rights once). The ZIP needs it installed already: `winget install Microsoft.DotNet.DesktopRuntime.10`.
 
 ## Good to know
 
@@ -69,7 +69,7 @@ Programmdateien — die neueste Fassung gibt es unter **[Releases](../../release
 
 1. Neuestes `MCD2ModLoader-x.y.z-Setup.exe` (oder das `.zip`) unter **[Releases](../../releases)** laden.
 2. Setup ausführen (keine Adminrechte nötig) oder das ZIP irgendwohin entpacken und `MCD2ModLoader.exe` starten.
-3. Voraussetzung: [.NET 10 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/10.0) (10.0.12 oder neuer).
+3. Das Setup installiert die [.NET 10 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/10.0) automatisch, falls sie fehlt (Windows fragt einmal nach Administratorrechten). Für das ZIP muss sie schon installiert sein: `winget install Microsoft.DotNet.DesktopRuntime.10`.
 
 ## Wissenswertes
 
